@@ -1,0 +1,59 @@
+.dot {
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+  border: 1px solid #fc6da9;
+  border-radius: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+.active {
+  background-color: #fc6da9;
+}
+.miniSlider {
+  &__content {
+    text-decoration: none;
+    list-style: none;
+    &-num {
+      margin-top: 15px;
+      color: #8cc9e8;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    &-text {
+      margin-top: 14px;
+      color: #2e2e2e;
+      font-size: 23px;
+      font-family: "DIN Pro", serif;
+    }
+  }
+  &__buttons {
+    margin-top: 50px;
+    width: 87px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-prev {
+      display: flex;
+      align-items: center;
+      img {
+        width: 9px;
+        height: 16px;
+      }
+    }
+    &-next {
+      display: flex;
+      align-items: center;
+      img {
+        width: 9px;
+        height: 16px;
+      }
+    }
+    &-dots {
+      width: 34px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
